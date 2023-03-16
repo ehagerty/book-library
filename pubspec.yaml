@@ -14,22 +14,23 @@ description: Book library application where u can add and remove a book
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.3.0 <3.0.0"
+  sdk: ">=2.18.1 <4.0.0"
+  flutter: ">=2.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^4.0.2
+  provider: ^6.0.5
   smooth_star_rating: ^1.0.3
-  flutter_speed_dial: ^1.2.1
+  flutter_speed_dial: ^6.2.0
 
-  cupertino_icons: ^0.1.2
+  cupertino_icons: ^1.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   image_test_utils: ^1.0.0
-  flutter_launcher_icons: ^0.7.2+1
+  flutter_launcher_icons: ^0.12.0
 
 flutter_icons:
   android: true
